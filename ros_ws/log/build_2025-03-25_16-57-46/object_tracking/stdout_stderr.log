@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/object_tracking/object_tracking.egg-info
+writing ../../build/object_tracking/object_tracking.egg-info/PKG-INFO
+writing dependency_links to ../../build/object_tracking/object_tracking.egg-info/dependency_links.txt
+writing entry points to ../../build/object_tracking/object_tracking.egg-info/entry_points.txt
+writing requirements to ../../build/object_tracking/object_tracking.egg-info/requires.txt
+writing top-level names to ../../build/object_tracking/object_tracking.egg-info/top_level.txt
+writing manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+reading manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+writing manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hans/ros2/test/build/object_tracking/build
+creating /home/hans/ros2/test/build/object_tracking/build/lib
+creating /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking
+copying object_tracking/video_publisher.py -> /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking
+copying object_tracking/__init__.py -> /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking
+copying object_tracking/buoy_tracker.py -> /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking
+running install
+running install_lib
+creating /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking
+copying /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking/video_publisher.py -> /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking
+copying /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking/__init__.py -> /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking
+copying /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking/buoy_tracker.py -> /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking
+byte-compiling /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking/video_publisher.py to video_publisher.cpython-310.pyc
+byte-compiling /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking/buoy_tracker.py to buoy_tracker.cpython-310.pyc
+running install_data
+creating /home/hans/ros2/test/install/object_tracking/share/ament_index
+creating /home/hans/ros2/test/install/object_tracking/share/ament_index/resource_index
+creating /home/hans/ros2/test/install/object_tracking/share/ament_index/resource_index/packages
+copying resource/object_tracking -> /home/hans/ros2/test/install/object_tracking/share/ament_index/resource_index/packages
+copying package.xml -> /home/hans/ros2/test/install/object_tracking/share/object_tracking
+running install_egg_info
+Copying ../../build/object_tracking/object_tracking.egg-info to /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing buoy_tracker script to /home/hans/ros2/test/install/object_tracking/lib/object_tracking
+Installing video_publisher script to /home/hans/ros2/test/install/object_tracking/lib/object_tracking
+writing list of installed files to '/home/hans/ros2/test/build/object_tracking/install.log'

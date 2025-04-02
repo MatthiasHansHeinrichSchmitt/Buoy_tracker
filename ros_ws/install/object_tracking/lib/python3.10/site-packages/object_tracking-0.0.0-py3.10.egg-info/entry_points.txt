@@ -1,0 +1,4 @@
+[console_scripts]
+buoy_tracker = object_tracking.buoy_tracker:main
+video_publisher = object_tracking.video_publisher:main
+
